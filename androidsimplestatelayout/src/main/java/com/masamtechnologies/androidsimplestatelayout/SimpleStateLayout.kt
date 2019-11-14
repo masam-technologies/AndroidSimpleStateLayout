@@ -20,9 +20,8 @@ class SimpleStateLayout(context: Context, attrs: AttributeSet?) : FrameLayout(co
         else
             loading_view.stop()
     }
-    inline fun loading(block: (SimpleStateLayout) -> Unit): SimpleStateLayout {
+    inline fun <R> loading(block: (SimpleStateLayout) -> R): R {
         refreshing(true)
-        block(this)
-        return this
+        return block(this)
     }
 }
