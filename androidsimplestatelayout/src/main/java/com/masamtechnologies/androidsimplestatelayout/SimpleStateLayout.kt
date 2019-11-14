@@ -1,9 +1,8 @@
-package com.masamtechnologies.simplestatelayout
+package com.masamtechnologies.androidsimplestatelayout
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.FrameLayout
-import com.masamtechnologies.androidsimplestatelayout.R
 import kotlinx.android.synthetic.main.simplestattelayout.view.*
 
 class SimpleStateLayout(context: Context, attrs: AttributeSet?) : FrameLayout(context, attrs) {

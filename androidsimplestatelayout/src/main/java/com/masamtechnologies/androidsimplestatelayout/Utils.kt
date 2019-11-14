@@ -1,4 +1,4 @@
-package com.masamtechnologies.simplestatelayout
+package com.masamtechnologies.androidsimplestatelayout
 
 import android.view.LayoutInflater
 import android.view.View
